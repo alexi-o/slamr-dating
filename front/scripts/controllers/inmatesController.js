@@ -5,6 +5,7 @@ var app = angular.module('SlammerDating', ['ngRoute'])
 ////////////
 ///ROUTES///
 ////////////
+
 app.config(function($routeProvider, $locationProvider){
 	$routeProvider
 		.when('/', {
@@ -20,14 +21,17 @@ app.config(function($routeProvider, $locationProvider){
 		      requireBase: false
     });	
 });
+
 ///////////////
 //CONTROLLERS//
 ///////////////
+
 InmatesController.$inject = ['$scope', '$http'];
 function InmatesController($scope, $http){
 	var self = this;
 	self.all = [];
 	self.getInmates = getInmates;
+	self.deleteInmate = deleteInmate;
 	
 	getInmates();
   
@@ -38,6 +42,16 @@ function InmatesController($scope, $http){
 	      console.log(response.data);
 	      self.all = response.data;
 	    });
+	}
+	function deleteInmate(inmate){
+		console.log("Deleting");
+		$http
+		.delete('http://localhost:3000/inmates/' + inmate._id)
+		.then(function(response){
+			console.log(response);
+			var index = self.all.indexOf(inmate);
+			self.all.splice(index, 1);
+		});
 	}
 }
 

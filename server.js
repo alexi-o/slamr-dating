@@ -19,8 +19,16 @@ app.get('/inmates', function show(req,res){
 });
 
 app.get('/inmates/:id', function show(req, res){
-	db.Inmate.findById({id: req.params.id}, function(err, inmate){
-		res.json(inmate);
+	console.log(req.params);
+	db.Inmate.findById({_id: req.params.id}, function(err, inmates){
+		res.json(inmates);
+	});
+});
+
+app.delete('/inmates/:id', function remove(req, res){
+	console.log(req.params);
+	db.Inmate.remove({_id :req.params.id}, function(err, inmates){
+		res.json({message: 'Criminal successfully deleted ' + req.params.id});
 	});
 });
 

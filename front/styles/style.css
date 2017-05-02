@@ -1,0 +1,14 @@
+ul {
+	list-style: none;
+}
+
+div {
+	position: relative;
+	margin: 0 auto;
+}
+
+h1, h3 {
+	font-family: 'Baloo Paaji', cursive;
+	text-align: center;
+	position: relative;
+}

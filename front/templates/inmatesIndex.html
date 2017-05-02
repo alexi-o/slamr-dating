@@ -1,7 +1,29 @@
-	<section ng-controller="InmatesController as inmates">
-		<ul id="criminals">
-			<li ng-repeat="inmate in inmates.all">
-				<img src="{{inmate.mugshot}}"/><a href="/inmates/{{inmate._id}}"> Name: {{inmate.name}}</a> </br> Interests: {{inmate.charges}}
-			</li>
-		</ul>
+<section ng-controller="InmatesController as inmates">
+	<div class="row" ng-repeat="inmate in inmates.all">
+		<div class="col-lg-8 col-lg-offset-2">
+				<div class="panel body">
+					<div class="column">
+						<div class="col-md-4 col-xs-12 thumbnail"><img src="{{inmate.mugshot}}"/></div>
+						<div class="col-md-8 col-xs-12">
+							<ul class="list-group">
+								<li class="list-group-item">
+									<h4 class="inline-header">Inmate Name:
+									</h4>
+									<span class="inmate-name">{{inmate.name}}</span></li>
+								<li class="list-group-item">
+									<h4 class="inline-header">Age:</h4>
+									<span class="inmate-age">{{inmate.age}}</span></li>
+								<li class="list-group-item">
+									<h4 class="inline-header">Interests:</h4>
+									<span class="inmate-interests">{{inmate.charges}}</span></li>
+									</ul>
+												<a href="/inmates/{{inmate._id}}"><button class="btn-primary">Read More</button></a>
+				 <button class='delete btn-danger' ng-click="inmates.deleteInmate(inmate)">Delete</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>		
 	</section>
+
