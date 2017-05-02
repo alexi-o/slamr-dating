@@ -1,8 +1,8 @@
-# slamr-dating
+## slamr-dating
 
-![](/styles/images/wireframe.png)
+![](front/styles/images/wireframe.png)
 
-##What it is
+## What it is:
 
 Slamr is an online dating app geared towards incarcerated individuals. Being locked up doesn't mean that you need to be locked out of love.
 
@@ -10,15 +10,15 @@ To use the app, individuals are initially presented with a list of possible matc
 
 On the main page, users can also use the search bar to search for individuals. 
 
-##Technologies Used
+## Technologies Used:
 
 MongoDB, Mongoose, Express, AngularJS, HTML, CSS, Node, Bootstrap
 
-#Inspiration
+## Inspiration:
 
 https://prison.inmate.dating/
 
-#User Stories
+## User Stories:
 
 I would like to find inmates that are looking for love.
 
