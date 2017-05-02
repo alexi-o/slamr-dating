@@ -1,0 +1,7 @@
+	<section ng-controller="InmatesController as inmates">
+		<ul id="criminals">
+			<li ng-repeat="inmate in inmates.all">
+				<img src="{{inmate.mugshot}}"/><a href="/inmates/{{inmate._id}}"> Name: {{inmate.name}}</a> </br> Interests: {{inmate.charges}}
+			</li>
+		</ul>
+	</section>

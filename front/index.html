@@ -2,11 +2,15 @@
 <html>
 <head>
 	<title>Slammer - A Niche Dating App</title>
+	  <script src="bower_components/angular/angular.min.js"></script>
+	  <script src="bower_components/angular-route/angular-route.min.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="scripts/controllers/inmatesController.js"></script>
 </head>
-	<script src="/bower_components/angular/angular.min.js"></script>
-	<script src="/bower_components/angular-route/angular-route.min.js"></script>
-	<script src="/app.js"></script>
-<body ng-app>
-	{{"hello world"}}
+<h1>Slammer</h1>
+<h2>Because 7-12 shouldn't feel like a 9-5</h2>
+<body ng-app="SlammerDating">
+	<ng-view></ng-view>
 </body>
 </html>
