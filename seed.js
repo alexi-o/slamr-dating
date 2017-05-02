@@ -140,23 +140,6 @@ var inmateList =
     }
   ];
 
-// request("http://www.jailbase.com/api/1/recent/?source_id=co-kccso&total_records", function(error, response, body){
-// 	console.log(url);
-// 	var parsedInmates = body;
-// 			console.log(parsedInmates);
-// 				console.log(body);
-// 					parsedInmates.forEach(function(inmate){
-// 						inmateObj = {
-// 							name: inmate.name,
-// 							mugshot: inmate.mugshot,
-// 							charges: inmate.charges[0],
-// 							info: inmate.more_info_url,
-// 							bookDate: inmate.book_date
-// 						};
-// 						inmateList.push(inmateObj);
-// 					});
-// 				});
-
 		db.Inmate.remove({}, function(err, inmates){
 		
 		if (err) {

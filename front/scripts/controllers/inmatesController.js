@@ -64,30 +64,4 @@ function InmatesShowController($http, $scope, $routeParams){
 			console.log(response.data + "This is the data");
 			$scope.inmate = response.data;
 		});
-
-//  	function getInmates(){
-//  	$http
-//  		.get("http://localhost:3000/inmates")
-//  		.then(function(res){
-// 	     console.log(res.data);
-// 	     self.all = res.data;
-//     	});
-// }
-//     function deleteInmate(inmate){
-//     	$http
-//     		.get("http://localhost:3000/inmates/" + inmate._id)
-//     		.then(function(res){
-//     			var index = self.all.indexOf(card);
-//         		self.all.splice(index, 1);
-//     	});
-// }  		
-//     function updateInmate(inmate) {
-// 	    console.log(inmate._id);
-// 	    $http
-// 	      .put('http://localhost:3000/inmates/' + inmate._id)
-// 	      .then(function(res){
-// 	        console.log(res.data);
-//      	 });
-    	
- 	// }
  }

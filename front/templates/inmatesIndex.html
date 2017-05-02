@@ -2,7 +2,6 @@
 <input class="input-group" ng-model="searchText" placeholder="Filter Search"></br>
    <div class="row" ng-repeat="inmate in inmates.all | filter:searchText">
       <div class="col-lg-8 col-lg-offset-2">
-         <div class="panel body">
             <div class="column">
                <div class="col-md-4 col-xs-12 thumbnail"><img src="{{inmate.mugshot}}"/></div>
                <div class="col-md-8 col-xs-12">

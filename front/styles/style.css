@@ -9,17 +9,21 @@ div {
 
 h1, h3 {
 	font-family: 'Baloo Paaji', cursive;
-	text-align: center;
-	position: relative;
-    text-shadow: 1px 1px white;
+	color: white !important;
+    text-shadow: 1px 1px black;
+    position: relative;
+    bottom: 50px;
+    left: 50px;
 }
 
 body {
-	background: url(./images/background.jpg);
+	background: url(./images/background2.jpg);
+	background-attachment: fixed;
 }
 
 .jumbotron {
-	background-color: blue;
+	background-color: rgba(0,0,0,.5);
+	height: 100px;
 }
 
 input {
