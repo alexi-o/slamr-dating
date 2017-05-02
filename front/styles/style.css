@@ -11,4 +11,20 @@ h1, h3 {
 	font-family: 'Baloo Paaji', cursive;
 	text-align: center;
 	position: relative;
+    text-shadow: 1px 1px white;
+}
+
+body {
+	background: url(./images/background.jpg);
+}
+
+.jumbotron {
+	background-color: blue;
+}
+
+input {
+	width: 250px;
+	height: 30px;
+	margin: 0 auto;
+	position: relative;
 }

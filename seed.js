@@ -18,6 +18,7 @@ var inmateList =
       "book_date": "2017-04-30",
       "charges": [
         "Domestic violence",
+        "Criminal mischief",
         "Assault in the third degree"
       ],
       "id": 18786952,
@@ -30,9 +31,8 @@ var inmateList =
       "book_date": "2017-04-30",
       "charges": [
         "Domestic violence",
-        "Criminal mischeif",
+        "Criminal mischief",
         "Assault in the third degree",
-        "Domestic violence"
       ],
       "id": 18786951,
       "more_info_url": "http://www.jailbase.com/en/co-kccsodorothy-chrostowski-18786951"
@@ -43,7 +43,7 @@ var inmateList =
       "mugshot": "https://imgstore.jailbase.com/small/arrested/co-kccso/2017-04-28/gary-morales-26ab7ae106c18885c7547effd2cda1da.pic1.jpg",
       "book_date": "2017-04-28",
       "charges": [
-        "FUGITIVE OF JUSTICE"
+        "Fugitive of justice"
       ],
       "id": 18767307,
       "more_info_url": "http://www.jailbase.com/en/co-kccsogary-morales-18767307"
@@ -54,8 +54,8 @@ var inmateList =
       "mugshot": "https://imgstore.jailbase.com/small/arrested/co-kccso/2017-04-27/george-leon-c94542a706c6f1de7e5a7a796b204f7e.pic1.jpg",
       "book_date": "2017-04-27",
       "charges": [
-        "VIOLATION OF RESTRAINING ORDER",
-        "VIOLATION OF BAIL BOND CONDITIONS"
+        "Violation of restraining order",
+        "Violation of bail bond conditions"
       ],
       "id": 18753085,
       "more_info_url": "http://www.jailbase.com/en/co-kccsogeorge-leon-18753085"
@@ -66,7 +66,7 @@ var inmateList =
       "mugshot": "https://imgstore.jailbase.com/small/arrested/co-kccso/2017-04-27/briana-stover-2ae0cf2efb4e623e183c1c47b0738944.pic1.jpg",
       "book_date": "2017-04-27",
       "charges": [
-        "PROTECTION ORDER VIOLATION (CRIMINAL)"
+        "Protection order violation"
       ],
       "id": 18753084,
       "more_info_url": "http://www.jailbase.com/en/co-kccsobriana-stover-18753084"
@@ -77,10 +77,8 @@ var inmateList =
       "mugshot": "https://imgstore.jailbase.com/small/arrested/co-kccso/2017-04-24/tyrel-duell-8861cf2c6499c8f9a45222a7fc798f96.pic1.jpg",
       "book_date": "2017-04-24",
       "charges": [
-        "DOMESTIC VIOLENCE",
-        "CRIMINAL MISCHIEF>750 <1,000",
-        "CHILD ABUSE",
-        "DOMESTIC VIOLENCE"
+        "Domestic violence",
+        "Criminal mischief"
       ],
       "id": 18728935,
       "more_info_url": "http://www.jailbase.com/en/co-kccsotyrel-duell-18728935"
@@ -101,7 +99,7 @@ var inmateList =
     },
     {
       "book_date_formatted": "Apr 22, 2017",
-      "name": "Edwin Alvarenga Zelaya",
+      "name": "SoupNazi3",
       "mugshot": "https://imgstore.jailbase.com/small/arrested/co-kccso/2017-04-22/edwin-alvarenga-zelaya-f98d86f0262c653f3170318f11b982c6.pic1.jpg",
       "book_date": "2017-04-22",
       "charges": [
@@ -117,7 +115,7 @@ var inmateList =
     },
     {
       "book_date_formatted": "Apr 21, 2017",
-      "name": "FastAndStrapped",
+      "name": "RickyBobby1982",
       "mugshot": "https://imgstore.jailbase.com/small/arrested/co-kccso/2017-04-21/laroy-dewberry-7678e36e071d23140a2bbee59fd80cd0.pic1.jpg",
       "book_date": "2017-04-21",
       "charges": [
